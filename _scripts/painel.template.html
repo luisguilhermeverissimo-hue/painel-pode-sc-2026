@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Painel PODE/SC – chapa estadual</title>
+<meta name="description" content="Painel interno de avaliação da chapa de deputado estadual do PODE/SC (DRAP 0600497-79.2026.6.24.0000). Monteiro e Monteiro Advogados Associados.">
+<style>
+@font-face{font-family:'Outfit';src:url(data:font/ttf;base64,{{FONTE}}) format('truetype');font-weight:100 900;font-style:normal;font-display:block}
+{{CSS}}
+</style>
+</head>
+<body>
+<header class="top">
+  <button class="menu-btn" id="menu-btn" aria-label="Abrir menu">☰</button>
+  <img class="logo" alt="Monteiro e Monteiro Advogados Associados" src="data:image/svg+xml;base64,{{LOGO}}">
+  <div class="tit"><h1>Chapa estadual do PODE/SC · fraude à cota de gênero</h1><div class="sub">DRAP 0600497-79.2026.6.24.0000 · Documento interno · Data-base 24/11/2026</div></div>
+  <div class="busca"><input id="busca" type="search" placeholder="Buscar pessoa, empresa, processo…" autocomplete="off"><div class="res" id="busca-res"></div></div>
+  <select class="sel" id="sel-cand" aria-label="Abrir dossiê"></select>
+</header>
+<div class="wrap">
+  <nav class="lado" id="nav"></nav>
+  <main id="main"></main>
+</div>
+<footer class="rod"><span>Monteiro e Monteiro Advogados Associados · Núcleo de Direito Eleitoral</span><span>Documento interno · Data-base 24/11/2026 · Gerado em {{GERADO}}</span></footer>
+<div id="tip"></div>
+<script>
+{{DADOS_AUTO}}
+{{DADOS_MANUAIS}}
+const SIMBOLO = 'data:image/svg+xml;base64,{{SIMBOLO}}';
+</script>
+<script>
+{{APP}}
+</script>
+</body>
+</html>
