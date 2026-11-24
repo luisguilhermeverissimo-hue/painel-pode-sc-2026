@@ -7,7 +7,9 @@ A triagem indica onde verificar e não conclui pela existência de fraude.
 
 ## Abrir
 
-Baixe `Painel_Chapa_Estadual_PODE_SC_Novo_2026.html` e abra no Chrome. O arquivo é autocontido (fonte, logos, fotos de urna, dados e gráficos embutidos) e funciona sem internet.
+Pelo GitHub Pages: https://luisguilhermeverissimo-hue.github.io/painel-pode-sc-2026/ (o `index.html` redireciona para o painel; o endereço é acessível a quem o tiver, mesmo com o repositório privado).
+
+Ou, Baixe `Painel_Chapa_Estadual_PODE_SC_Novo_2026.html` e abra no Chrome. O arquivo é autocontido (fonte, logos, fotos de urna, dados e gráficos embutidos) e funciona sem internet.
 
 ## Estrutura
 
